@@ -1,0 +1,73 @@
+@media(max-width:832px){
+    header nav{
+        padding: 0 10px 0 10px;
+    }
+    header a{
+        font-size: 14px;
+        font-weight: bolder;
+    }
+}
+
+@media(max-width:600px){
+    #cmpny-name{
+    text-align: center;
+    background-color: black;
+    background-color: rgba(0,0,0,.6);
+
+    width: 100%;padding: 5px;
+    }
+    header nav a{
+       padding: 0 15px 0 15px;
+       
+    }
+    header nav li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgb(253, 247, 247);
+        border-bottom-width: 1px ;
+        padding: .8em;
+    }
+    header nav{
+        width: 100%;
+        padding: .5em;
+        background-color: rgba(0,0,0,.6);
+
+       
+    }
+    #boxes{
+       flex-direction: column;
+      
+    }
+    #boxes .box1 {
+        width: 80%;
+        float: none;
+        
+    }
+    .box2{
+        width: 80%;
+        float: none;
+        
+    }
+    .profile{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .text1{
+        background-color:rgba(0,0,0,.6);
+        padding: 13px;
+        color: white;
+    }
+    .testimonial{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .box-area{
+        width: 100%;
+        padding: 15px;
+    }
+    .h2-footer{
+        border-bottom: 5px saddlebrown solid;
+    }
+}

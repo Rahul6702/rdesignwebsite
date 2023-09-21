@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frontedweb</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaquery.css">
+  
+</head>
+<body onload="abc()">
+  
+  <header>
+    <div class="container">
+      <div id="cmpny-name">
+        <h1><span>Rk</span>Design</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="#">Home</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+
+      <marquee behavior="scroll" direction="right" scrollamount="15"  >
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolorem.</p>
+      </marquee>
+    </div>
+  </header>
+
+
+
+<!-- for taking name for javascipt ---------------------------->
+  <div class="container">
+    <div class="greet">
+     <marquee behavior="alternate" direction="right" scrollamount="25"  onmousemove="stop()"
+     onmouseleave="start()">
+      <h3 id="greet" class="text">welcome to my website:-</h3>
+     </marquee>
+    </div>
+  </div>
+
+
+<!-- <script class="text/javascript">
+  // var x=prompt("Please Enter your name");
+  // document.getElementById("greet").innerHTML="Welcome " + x +"  sir";
+</script> -->
+  
+  
+
+
+  <!-- js image transition page -------------------------------->
+<section class="header">
+  <div class="container-img">
+    <img src="img/money.jpg" alt="" id="img1">
+  </div>
+</section>
+<!-- -------------------------------------------------------- -->
+    <script class="text/javascipt">
+      c=1;
+      function abc(){
+        if(c==1){
+          document.getElementById("img1").src="img/man.jpg";
+        }
+        if(c==2){
+          document.getElementById("img1").src="img/car.jpg";
+        }
+        if(c==3){
+          document.getElementById("img1").src="img/elearning.jpg";
+        }
+        if(c==4){
+          document.getElementById("img1").src="img/man2.jpg";
+        }
+        if(c==4){
+          document.getElementById("img1").src="img/wp.jpg";
+        }
+        c++;
+        setTimeout("abc()",2000);
+        if(c>=5){
+          c=1;
+        }
+        
+      }
+    </script>
+
+      <!----------------------------------------------------  -->
+
+    <div class="container">
+       <div id="boxes">
+        <div class="box1">
+          <h3>box1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+        <div class="box1">
+          <h3>box2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+        <div class="box2">
+          <h3>box3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+        <div class="box2">
+          <h3>box3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+       </div>
+
+
+       <!--  -------------------------------------------------->
+       <div id="boxes">
+        <div class="box1">
+          <h3>box1</h3>
+          <i class="fa fa-telegram" aria-hidden="true"></i>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+        <div class="box1">
+          <h3>box2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+        <div class="box2">
+          <h3>box3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+        <div class="box2">
+          <h3>box3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ipsum odio aut modi ipsa, quia illum iste aspernatur nulla quisquam!</p>
+        </div>
+       </div>
+    </div>
+
+    <!-- about section ----------------------------------------->
+    <div class="container">
+      <div class="profile">
+        <div class="img">
+          <img src="img/detec.png" alt=" " class="about-img">
+        </div>
+
+        <div class="text1">
+    
+          <p style="float: left; margin-top: -10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus nostrum voluptatibus dignissimos epellendus quo consectetur amet, quidem expedita inventore. Saepe eaque commodi laboriosam ullam corrupti? Dolorpraesentium sint, recusandae reiciendis, id repellendus quo consectetur amet, quidem expedita inventore. Saepe eaque commodi laboriosam ullam corrupti? Dolor illo impedit perspiciatis itaque tenetur rerum quos nostrum!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial ------------------------------------------>
+    <div class="container">
+      <div class="testimonial">
+        <div class="text-right">
+          <h4>About</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est neque ut illo ratione voluptatem, quas dolorum quae suscipit odio fugit, ea vitae nemo adipisci, possimus aspernatur! Dicta possimus enim consequatur.</p>
+        </div>
+        <div class="img-test">
+         <img src="img/p.jpg" alt="" class="img-right">
+           <h4 class="title">Rahul kumar</h4>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------- -->
+    
+    <section class="header">
+       <div class="footer">
+        <div class="box-area">
+          <h2 class="h2-footer">Address</h2>
+          <p>|saristabad.</p>
+          <p>|purvi tola</p>
+          <p>|Devi Asthan</p>
+          <p>|patna 800002</p>
+        </div>
+
+        <div class="box-area">
+          <h2 class="h2-footer">Phone.no</h2>
+          <p>7903598147.</p>
+          <p>6200253637</p>
+          <p>9473025342</p>
+         
+        </div>
+
+        <div class="box-area">
+          <h2 class="h2-footer">Skill</h2>
+          <p>java</p>
+          <p>c++</p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+        </div>
+        <div class="box-area">
+          <h2  class="h2-footer">location</h2>
+          <p>|saristabad.</p>
+          <p>|purvi tola</p>
+          <p>|Devi Asthan</p>
+          <p>|patna 800002</p>
+        </div>
+       </div>
+
+       <div>
+        <p style="text-align: center; padding: 30px;background-color: blue;">copyright &copy;2023</p>
+       </div>
+       
+    </section>
+    
+</body>
+</html>
